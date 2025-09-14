@@ -1,88 +1,88 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+/* Body styling */
+body {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: blanchedalmond;
-    margin-top: 20%;
-}
-.container h2{
-    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-   
 }
-.container{
+
+/* Container */
+.container {
     text-align: center;
     background-color: white;
-    width: 245px;
-    height: 390px;
-    margin-left: 34%;
+    width: 95%;
+    max-width: 300px;
     border-radius: 14px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
- input{
-    font-size: large;
-    margin-top: 12px;
-    padding-left: 12px;
-    height: 38px;
+
+/* Title */
+.container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Display input */
+input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 15px;
     border: 2px solid black;
+    border-radius: 6px;
+    text-align: right;
 }
-.upword{
-    margin-right: 12px;
-    font-family: 20px;
+
+/* Button rows styling */
+.upword, .gapward, .innerword, .oneword, .lastword {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
-.upword button{
-    font-size: large;
-    height: 47px;
-    width: 39px; 
-    margin-top: 12px; 
+
+/* All buttons styling */
+button {
+    flex: 1;
+    font-size: 1rem;
+    padding: 12px 0;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background 0.2s;
 }
-.gapward{
-    margin-right: 12px;
+
+button:hover {
+    background-color: #ddd;
 }
-.gapward button{
-    font-size: large;
-    height: 47px;
-    width: 39px; 
-    margin-top: 12px; 
+
+/* Specific buttons */
+#zero {
+    flex: 2;
 }
-.innerword{
-    margin-right: 12px;
+
+#dot, #equal {
+    flex: 1;
 }
-.innerword button{
-    font-size: large;
-    height: 47px;
-    width: 39px; 
-    margin-top: 12px; 
-}
-.oneword{
-    margin-right: 12px;
-    
-}
-.oneword button{
-    font-size: large;
-    height: 47px;
-    width: 39px; 
-    margin-top: 12px; 
-}
-.lastword{
-    margin-right: 14px;
-}
-.lastword button{
-     
-    height: 47px;
-    width: 39px; 
-    margin-top: 12px; 
-}
-#zero{
-  width: 73px;
-  font-size: large;
-  /* margin-right: 2px; */
-}
-#dot{
- font-size: large;
- margin-left: 10px;
-}
-#equal{
- font-size: large;
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    input {
+        font-size: 1rem;
+        padding: 8px;
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 10px 0;
+    }
 }
