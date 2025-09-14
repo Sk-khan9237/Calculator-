@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    justify-content: center;
+    background-color: blanchedalmond;
+    margin-top: 20%;
+}
+.container h2{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.container{
+    text-align: center;
+    background-color: white;
+    width: 245px;
+    height: 390px;
+    margin-left: 34%;
+    border-radius: 14px;
+}
+ input{
+    font-size: large;
+    margin-top: 12px;
+    padding-left: 12px;
+    height: 38px;
+    border: 2px solid black;
+}
+.upword{
+    margin-right: 12px;
+    font-family: 20px;
+}
+.upword button{
+    font-size: large;
+    height: 47px;
+    width: 39px; 
+    margin-top: 12px; 
+}
+.gapward{
+    margin-right: 12px;
+}
+.gapward button{
+    font-size: large;
+    height: 47px;
+    width: 39px; 
+    margin-top: 12px; 
+}
+.innerword{
+    margin-right: 12px;
+}
+.innerword button{
+    font-size: large;
+    height: 47px;
+    width: 39px; 
+    margin-top: 12px; 
+}
+.oneword{
+    margin-right: 12px;
+    
+}
+.oneword button{
+    font-size: large;
+    height: 47px;
+    width: 39px; 
+    margin-top: 12px; 
+}
+.lastword{
+    margin-right: 14px;
+}
+.lastword button{
+     
+    height: 47px;
+    width: 39px; 
+    margin-top: 12px; 
+}
+#zero{
+  width: 73px;
+  font-size: large;
+  /* margin-right: 2px; */
+}
+#dot{
+ font-size: large;
+ margin-left: 10px;
+}
+#equal{
+ font-size: large;
+}
